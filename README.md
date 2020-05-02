@@ -21,3 +21,9 @@
     ```sh
     javap -verbose Main > Main.bytecode
     ```
+
+4. 分析包含内部类的源码编译出的Class文件
+
+    ```sh
+    javap -verbose 'Main$Box.class' > 'Main$Box.bytecode'
+    ```

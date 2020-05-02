@@ -1,2 +1,5 @@
 *.class
 *.bytecode
+.idea
+.classpath
+.project
