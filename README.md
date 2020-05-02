@@ -11,8 +11,10 @@
 2. 运行javac编译成字节码
 
     ```sh
-    javac Main.java
+    javac -g:vars Main.java
     ```
+
+    编译生成LocalVariableTable(局部变量表)
 
 3. 运行javap分析Class文件字节码
 
