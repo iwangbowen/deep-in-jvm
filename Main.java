@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-/*
-    1.增加内部类验证javac如何编译包含内部类的代码
-    2.增加泛型验证Signature树形
-*/
-
 public class Main {
     private int m;
+    
+    public int bitOperate() {
+    	int a = 9999;
+    	return a >> 2;
+    }
 
     @Deprecated
     public int inc() {
@@ -19,7 +19,6 @@ public class Main {
     }
 
     public int test() {
-        int hello;
         int c = 1 + 3;
         int a = calc(1, c);
         return a;
